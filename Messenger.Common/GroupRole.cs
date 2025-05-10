@@ -6,5 +6,10 @@ using System.Threading.Tasks;
 
 namespace Messenger.Common
 {
-    public record FriendDto(string Username, string UserCode, string FirstName, string LastName);
+    public enum GroupRole
+    {
+        Member,
+        Moderator,
+        Owner
+    }
 }

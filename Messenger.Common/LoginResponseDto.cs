@@ -7,5 +7,6 @@ using System.Threading.Tasks;
 
 namespace Messenger.Common
 {
-    public record LoginResponseDto(JsonWebTokenDto JsonWebToken, List<FriendDto> Friends, List<FriendRequestDto> FriendRequests);
+    public record LoginResponseDto(JsonWebTokenDto JsonWebToken, SocialConnectionsDto socialConnections);
+
 }

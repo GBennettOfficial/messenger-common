@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Messenger.Common
 {
-    public record FriendRequestDto(string username);
+    public record FriendRequestDto(string Username, string UserCode, string FirstName, string LastName, AcceptStatus AcceptStatus);
     
 }
